@@ -1,0 +1,51 @@
+body, html {
+  background-color: #776B5D;
+  margin: 0;
+  height: 0;
+
+}
+
+.search-form {
+  text-align: center;
+  margin: 50px auto;
+}
+
+/* Style the search input */
+.search {
+  width: 500px;
+  height: 22px;
+  padding: 10px;
+  border: 1px solid #EBE3D5;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Style the suggestions list */
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.first{
+  flex-direction: column;
+}
+.suggestions li {
+  color: #F3EEEA;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  text-align: justify;
+  padding-left: 517px;
+  padding-right: 530px;
+}
+
+/* Add a subtle hover effect for the suggestions */
+.suggestions li:hover {
+  cursor: pointer;
+  background-color: #B0A695;
+
+}
